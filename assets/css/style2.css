@@ -76,6 +76,30 @@ body {
     line-height: 34px;
 }
 
+/* header text */
+h2 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #4aaaa5;
+    padding-top: 40px;
+}
+
+hr {
+    background-color:#cccccc;
+    width:auto;
+    height:3px;
+    border: 0 none;
+    margin-bottom: 30px;
+
+}
+
+#main-bio {
+    background-color: #ffffff!important;
+    margin-bottom:40px;
+    padding: 30px;
+}
+
 
 /* contact page formatting */
 .contact {
@@ -125,10 +149,15 @@ footer {
     padding: 30px 0;
     clear: both;
     font-size: 12px;
-    color: #fff;
     color: #ccc;
     text-align: center;
     background: #666;
     border-top: 8px solid #4aaaa5;
     height: 50px;
+    box-sizing: border-box;
+    position: absolute;
+    display: block;
+    width: 99%;
+    margin-top: 30px;
+    margin-left: .5%;
   }
